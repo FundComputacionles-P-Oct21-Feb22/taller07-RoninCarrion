@@ -1,0 +1,13 @@
+// Generar la siguiente serie
+// +1/1+1/3+1/5+1/7+1/9
+1. Inicio
+2. limite, i[0, n] <-- 9
+3. numerador, i[0, n] <-- 1
+4. denominador, i[0, n] <-- 1
+5. cadena_final, x(100)[{0-10},{-,+, BS, /}] <-- " "
+6. rango_permitido, x(100)[{0-9},{+, BS, /}] <-- " "
+7. Para(denominador <--1, denominador<=limite, 2) haga 
+8.     cadena_final <-- rangoPermitido + "+" + numerador + "/" + denominador
+9. Fin_Para
+10. Escribir rangoPermitido 
+11. Fin
